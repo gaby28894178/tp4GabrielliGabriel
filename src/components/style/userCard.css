@@ -1,0 +1,90 @@
+.user{
+    width: 100%;
+    max-width: 17em;
+    border-radius: 0.8em;
+    border: 0.2em solid gray;
+    padding: 2em  1em 3em 2em;
+    margin: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    height: 14em;
+  
+}
+.user_id{
+    display: grid;
+    gap: 0.1em;
+    margin-bottom: 0.4em;
+    margin-top: -0.9em;
+}
+.user__name {
+    font-size: 1em;
+    font-weight: 200;
+    text-transform: capitalize;
+    text-align: center;
+
+}
+.user__hr{
+    margin-top: 0.2em;
+    gap: 0.6em;
+    border-color: rgb(13, 79, 211);
+}
+.user__list{
+display: grid;
+gap: 0.1em;
+margin-bottom: 0.2em;
+
+}
+
+.user__item{
+    display: grid;
+    gap: 0.1em;
+}
+.user__label{
+    margin-top: 2em;
+    margin-left: -1.1em;
+    font-size: 0.8em;
+    color: rgb(25, 135, 232);
+    text-transform: capitalize;
+}
+.user__value{
+    font-size: -0.9em;
+    font-weight: 400;
+    margin-top: -1.5em;
+    margin-left: 1.4em;
+}
+.user__footer{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1em;
+}
+.user__btn{
+    font-size: 0.9em;
+    width: 3.8em;
+    aspect-ratio: 1;
+    text-align: center;
+    border: 0.1em seagreen solid;
+    border-radius: 0.3em;
+    color: aliceblue;
+    &:hover{
+        filter: brightness(1.2em);
+        color: rgb(236, 0, 0);
+        background-color: antiquewhite;
+        border: 1px solid seagreen;
+        
+
+    }
+}
+
+
+.user__delet{
+    background-color:red;
+}
+.user__edit{
+    background-color: rgb(118, 118, 118);
+}
+
+
+
+i{
+    font-size: 1.5em;
+}
